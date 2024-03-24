@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMV112SD_NOPB
+D LMV112SD/NOPB, Clock Buffer Dual, 8-Pin LLP
+K
+F http://www.ti.com/lit/gpn/lmv112
+$ENDCMP
+#
+#End Doc Library

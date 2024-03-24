@@ -1,0 +1,81 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "49f19363-9055-4ac9-9bec-b181bee16fd6")
+	(paper "B")
+	(lib_symbols)
+	(sheet
+		(at 44.45 86.36)
+		(size 21.59 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aad8eeef-823b-4aa3-85ff-242b96ebd398")
+		(property "Sheetname" "Clocking"
+			(at 44.45 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clocking.kicad_sch"
+			(at 44.45 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EXT_REF" input
+			(at 44.45 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f809f10f-93b8-4149-98bf-aaa2b028ca83")
+		)
+		(pin "CLK_SRC_INT" input
+			(at 44.45 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf446799-3375-42e1-a527-9ddaa77371ae")
+		)
+		(pin "REF" input
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51ef9f7b-a565-4436-8ad6-9a4d125ff093")
+		)
+		(instances
+			(project "siggen"
+				(path "/49f19363-9055-4ac9-9bec-b181bee16fd6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
