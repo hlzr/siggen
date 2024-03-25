@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "LDLN025PU33R"
+	(symbol "V7223T-050.0M"
 		(pin_names
 			(offset 0.254)
 		)
@@ -10,22 +10,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 20.32 10.16 0)
+			(at 35.56 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "LDLN025PU33R"
-			(at 20.32 7.62 0)
+		(property "Value" "V7223T-050.0M"
+			(at 35.56 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "DFN4-1X1_STM"
+		(property "Footprint" "V7223T_CNW"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LDLN025PU33R"
+		(property "Datasheet" "V7223T-050.0M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -62,7 +62,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "LDLN025PU33R"
+		(property "ki_keywords" "V7223T-050.0M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -71,7 +71,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DFN4-1X1_STM"
+		(property "ki_fp_filters" "V7223T_CNW V7223T_CNW-M V7223T_CNW-L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -80,7 +80,27 @@
 				(hide yes)
 			)
 		)
-		(symbol "LDLN025PU33R_1_1"
+		(symbol "V7223T-050.0M_0_1"
+			(pin power_in line
+				(at 0 0 0)
+				(length 7.62)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "V7223T-050.0M_1_1"
 			(rectangle
 				(start 7.62 2.54)
 				(end 20.32 -7.62)
@@ -92,10 +112,10 @@
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at 25.4 0 180)
-				(length 5.08)
-				(name "VOUT"
+			(pin input line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "VCTL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -110,10 +130,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 25.4 -2.54 180)
-				(length 5.08)
-				(name "GND"
+			(pin input line
+				(at 27.94 0 180)
+				(length 7.62)
+				(name "OE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -128,10 +148,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 -5.08 0)
-				(length 5.08)
-				(name "EN"
+			(pin power_out line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -146,10 +166,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 2.54 0 0)
-				(length 5.08)
-				(name "VIN"
+			(pin output line
+				(at 27.94 -5.08 180)
+				(length 7.62)
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -164,10 +184,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 25.4 -5.08 180)
-				(length 5.08)
-				(name "GND"
+			(pin no_connect line
+				(at 27.94 -2.54 180)
+				(length 7.62)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)

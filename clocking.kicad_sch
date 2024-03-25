@@ -2242,7 +2242,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a6d8ba47-30f2-42d0-8b2a-dafebb808a9f")
+		(uuid "a789b862-1ac9-4c92-93e8-c1c1ae6d6ed8")
 	)
 	(wire
 		(pts
@@ -2489,15 +2489,26 @@
 		(uuid "56e169d1-6ba1-494d-94f3-85c7e6b7628c")
 	)
 	(label "TCXO_OUT"
-		(at 245.11 135.89 180)
+		(at 236.22 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6b6382e9-ecf6-4a61-9190-3324a8629e4b")
+	)
+	(label "EXT_REF_OUT"
+		(at 236.22 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79e7be4e-fa14-4af0-a017-156e4d51ca57")
 	)
 	(label "3V3_BUFF"
 		(at 190.5 166.37 0)
@@ -2543,7 +2554,7 @@
 		)
 		(uuid "f656814e-8bfb-4f37-b295-992c7699323e")
 	)
-	(hierarchical_label "EXT_REF"
+	(hierarchical_label "EXT_REF_IN_OUT"
 		(shape input)
 		(at 187.96 143.51 180)
 		(fields_autoplaced yes)
@@ -2567,7 +2578,7 @@
 		)
 		(uuid "46ff1451-7022-4b1a-891c-238bb215fa9e")
 	)
-	(hierarchical_label "REF"
+	(hierarchical_label "REF_OUT"
 		(shape input)
 		(at 289.56 139.7 0)
 		(fields_autoplaced yes)
@@ -2680,7 +2691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1E103JE01-01A.pdf"
 			(at 193.04 104.14 0)
 			(effects
 				(font
@@ -2689,7 +2700,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1E103JE01J"
+			(at 193.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 193.04 104.14 0)
 			(effects
 				(font
@@ -2750,7 +2779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J105KA12-01.pdf~"
 			(at 279.4 114.3 0)
 			(effects
 				(font
@@ -2759,7 +2788,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 6.3V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R70J105KA12J"
+			(at 279.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 279.4 114.3 0)
 			(effects
 				(font
@@ -2819,7 +2866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102JA01-01.pdf"
 			(at 146.05 139.7 0)
 			(effects
 				(font
@@ -2828,7 +2875,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1H102JA01D"
+			(at 146.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 146.05 139.7 0)
 			(effects
 				(font
@@ -2889,7 +2954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
 			(at 328.93 106.68 0)
 			(effects
 				(font
@@ -2898,7 +2963,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 328.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88J"
+			(at 328.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 328.93 106.68 0)
 			(effects
 				(font
@@ -3031,7 +3114,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 MHz TCXO Clipped Sine Wave Oscillator 2.8V ~ 3.3V 4-SMD, No Lead"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXETALSANF-10.000000"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taitien"
 			(at 158.75 133.35 0)
 			(effects
 				(font
@@ -3107,7 +3208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LMV112SD/NOPB, Clock Buffer Dual, 8-Pin LLP"
+		(property "Description" "Clock Buffer/Driver IC 1:1 40 MHz 8-WFDFN Exposed Pad"
 			(at 203.2 130.81 0)
 			(effects
 				(font
@@ -3126,43 +3227,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "926-LMV112SD/NOPB"
-			(at 240.03 625.73 0)
+		(property "MPN" "LMV112SD/NOPB"
+			(at 203.2 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMV112SD-NOPB?qs=7lkVKPoqpbZ3v3h0zkDMEA%3D%3D"
-			(at 240.03 725.73 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 203.2 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 240.03 825.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LMV112SD/NOPB"
-			(at 240.03 925.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -3369,7 +3448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1E103JE01-01A.pdf"
 			(at 251.46 135.89 0)
 			(effects
 				(font
@@ -3378,7 +3457,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 251.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1E103JE01J"
+			(at 251.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 251.46 135.89 0)
 			(effects
 				(font
@@ -3572,7 +3669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J105KA12-01.pdf~"
 			(at 128.27 139.7 0)
 			(effects
 				(font
@@ -3581,7 +3678,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 6.3V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R70J105KA12J"
+			(at 128.27 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 128.27 139.7 0)
 			(effects
 				(font
@@ -3706,7 +3821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1E103JE01-01A.pdf"
 			(at 278.13 153.67 0)
 			(effects
 				(font
@@ -3715,7 +3830,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 278.13 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1E103JE01J"
+			(at 278.13 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 278.13 153.67 0)
 			(effects
 				(font
@@ -3891,7 +4024,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2337019-1"
+		(property "Value" "MMCX"
 			(at 215.9 107.6006 0)
 			(effects
 				(font
@@ -3910,7 +4043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "2337019-1"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-140209%7FA%7Fpdf%7FEnglish%7FENG_SS_108-140209_A.pdf%7F2337019-1"
 			(at 204.47 96.52 0)
 			(effects
 				(font
@@ -3920,7 +4053,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2337019-1"
+			(at 204.47 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity AMP Connectors"
 			(at 204.47 104.14 0)
 			(effects
 				(font
@@ -3983,7 +4134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
 			(at 78.74 132.08 0)
 			(effects
 				(font
@@ -3992,7 +4143,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88J"
+			(at 78.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 78.74 132.08 0)
 			(effects
 				(font
@@ -4168,7 +4337,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2337019-1"
+		(property "Value" "MMCX"
 			(at 300.99 157.1306 0)
 			(effects
 				(font
@@ -4187,7 +4356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "2337019-1"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-140209%7FA%7Fpdf%7FEnglish%7FENG_SS_108-140209_A.pdf%7F2337019-1"
 			(at 289.56 146.05 0)
 			(effects
 				(font
@@ -4197,7 +4366,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder"
+			(at 289.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2337019-1"
+			(at 289.56 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity AMP Connectors"
 			(at 289.56 153.67 0)
 			(effects
 				(font
@@ -4259,7 +4446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1E103JE01-01A.pdf"
 			(at 191.77 135.89 0)
 			(effects
 				(font
@@ -4268,7 +4455,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 191.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1E103JE01J"
+			(at 191.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 191.77 135.89 0)
 			(effects
 				(font
@@ -4328,7 +4533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102JA01-01.pdf"
 			(at 87.63 132.08 0)
 			(effects
 				(font
@@ -4337,7 +4542,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 87.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1H102JA01D"
+			(at 87.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 87.63 132.08 0)
 			(effects
 				(font
@@ -4462,7 +4685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1E103JE01-01A.pdf"
 			(at 278.13 139.7 0)
 			(effects
 				(font
@@ -4471,7 +4694,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 278.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1E103JE01J"
+			(at 278.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 278.13 139.7 0)
 			(effects
 				(font
@@ -4529,7 +4770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1E103JE01-01A.pdf"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -4538,7 +4779,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10000 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1E103JE01J"
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 251.46 143.51 0)
 			(effects
 				(font
@@ -4598,7 +4857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J105KA12-01.pdf~"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -4607,7 +4866,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 6.3V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 69.85 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R70J105KA12J"
+			(at 69.85 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 69.85 132.08 0)
 			(effects
 				(font
@@ -4735,7 +5012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102JA01-01.pdf"
 			(at 261.62 114.3 0)
 			(effects
 				(font
@@ -4744,7 +5021,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 261.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1H102JA01D"
+			(at 261.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 261.62 114.3 0)
 			(effects
 				(font
@@ -4937,7 +5232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
 			(at 270.51 114.3 0)
 			(effects
 				(font
@@ -4946,7 +5241,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 270.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88J"
+			(at 270.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 270.51 114.3 0)
 			(effects
 				(font
@@ -5006,7 +5319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "SN74LVC1G240DCKR"
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g240"
 			(at 163.83 166.37 0)
 			(effects
 				(font
@@ -5016,7 +5329,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Buffer, Inverting 1 Element 1 Bit per Element 3-State Output SC-70-5"
+			(at 163.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC1G240DCKR"
+			(at 163.83 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 163.83 166.37 0)
 			(effects
 				(font
@@ -5218,7 +5549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/a7/8d/6a/ac/ed/d0/4f/f4/DM00312779/files/DM00312779.pdf/jcr:content/translations/en.DM00312779.pdf"
 			(at 292.1 106.68 0)
 			(effects
 				(font
@@ -5227,17 +5558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LDLN025 Series 3.3 V 250 mA Surface Mount Fixed Ultra Low Noise LDO - SOT-23-5L"
-			(at 292.1 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "STMicroelectronics"
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 250mA SOT-23-5"
 			(at 292.1 106.68 0)
 			(effects
 				(font
@@ -5277,7 +5598,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LDLN025M33R"
+		(property "AVAILABILITY" "Unavailable"
 			(at 292.1 106.68 0)
 			(effects
 				(font
@@ -5287,13 +5608,21 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "Unavailable"
+		(property "MPN" "LDLN025M33R"
 			(at 292.1 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 292.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5358,7 +5687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R70J105KA12-01.pdf~"
 			(at 337.82 106.68 0)
 			(effects
 				(font
@@ -5367,7 +5696,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1 µF ±10% 6.3V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 337.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R70J105KA12J"
+			(at 337.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 337.82 106.68 0)
 			(effects
 				(font
@@ -5428,7 +5775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1555C1H102JA01-01.pdf"
 			(at 320.04 106.68 0)
 			(effects
 				(font
@@ -5437,7 +5784,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1000 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 320.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1555C1H102JA01D"
+			(at 320.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 320.04 106.68 0)
 			(effects
 				(font
@@ -5696,7 +6061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
 			(at 207.01 170.18 0)
 			(effects
 				(font
@@ -5705,7 +6070,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 207.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88J"
+			(at 207.01 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 207.01 170.18 0)
 			(effects
 				(font
@@ -5963,7 +6346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/a7/8d/6a/ac/ed/d0/4f/f4/DM00312779/files/DM00312779.pdf/jcr:content/translations/en.DM00312779.pdf"
 			(at 115.57 132.08 0)
 			(effects
 				(font
@@ -5972,17 +6355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LDLN025 Series 3.3 V 250 mA Surface Mount Fixed Ultra Low Noise LDO - SOT-23-5L"
-			(at 115.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "STMicroelectronics"
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 250mA SOT-23-5"
 			(at 115.57 132.08 0)
 			(effects
 				(font
@@ -6022,7 +6395,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "LDLN025M33R"
+		(property "AVAILABILITY" "Unavailable"
 			(at 115.57 132.08 0)
 			(effects
 				(font
@@ -6032,13 +6405,21 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" "Unavailable"
+		(property "MPN" "LDLN025M33R"
 			(at 115.57 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6102,7 +6483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
 			(at 137.16 139.7 0)
 			(effects
 				(font
@@ -6111,7 +6492,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71C104KA88J"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 137.16 139.7 0)
 			(effects
 				(font

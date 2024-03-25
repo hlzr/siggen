@@ -5,6 +5,16 @@
 	(uuid "49f19363-9055-4ac9-9bec-b181bee16fd6")
 	(paper "B")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 66.04 88.9) (xy 68.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9dff2f-b066-41d5-a156-939c1ecca355")
+	)
 	(sheet
 		(at 44.45 86.36)
 		(size 21.59 19.05)
@@ -35,16 +45,6 @@
 				(justify left top)
 			)
 		)
-		(pin "EXT_REF" input
-			(at 44.45 88.9 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f809f10f-93b8-4149-98bf-aaa2b028ca83")
-		)
 		(pin "CLK_SRC_INT" input
 			(at 44.45 102.87 180)
 			(effects
@@ -55,7 +55,7 @@
 			)
 			(uuid "cf446799-3375-42e1-a527-9ddaa77371ae")
 		)
-		(pin "REF" input
+		(pin "REF_OUT" input
 			(at 66.04 88.9 0)
 			(effects
 				(font
@@ -63,12 +63,120 @@
 				)
 				(justify right)
 			)
-			(uuid "51ef9f7b-a565-4436-8ad6-9a4d125ff093")
+			(uuid "feecef3f-31ac-4b72-a712-869e7e0a5253")
+		)
+		(pin "EXT_REF_IN_OUT" input
+			(at 44.45 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e7fe18d-b2cc-4161-adf5-d6088ffbbc0f")
 		)
 		(instances
 			(project "siggen"
 				(path "/49f19363-9055-4ac9-9bec-b181bee16fd6"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 86.36)
+		(size 30.48 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f05efdd0-ea8b-4c3e-90e8-a86f40ea207e")
+		(property "Sheetname" "PLL1"
+			(at 68.58 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pll1.kicad_sch"
+			(at 68.58 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PLL1_OUT_50M" input
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "980f7c3d-4dfc-49a2-a54a-0fd2b4815d7c")
+		)
+		(pin "PLL1_LE" input
+			(at 68.58 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "851ac7d6-c5d8-4287-a182-4b7526d39a3d")
+		)
+		(pin "PLL1_SCLK" input
+			(at 68.58 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22a1262a-680d-4ab3-a8fe-e1558120be2e")
+		)
+		(pin "PLL1_MOSI" input
+			(at 68.58 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8ecb130b-83ec-41eb-843e-44622d4c7fad")
+		)
+		(pin "REF_IN" input
+			(at 68.58 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f335076e-1697-4a81-ad2d-f0d022cc68dd")
+		)
+		(pin "PLL1_LOCK" input
+			(at 68.58 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "abc0a46e-2076-44e4-b458-969bd1c7b334")
+		)
+		(instances
+			(project "siggen"
+				(path "/49f19363-9055-4ac9-9bec-b181bee16fd6"
+					(page "3")
 				)
 			)
 		)
